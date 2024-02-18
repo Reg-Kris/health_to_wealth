@@ -1,0 +1,24 @@
+name: health_to_wealth
+description: "A healthy and wealthy flutter project."
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/homeScreen.png
+    - assets/images/sun_background.png
+    - assets/images/walker_icon.png
+    - assets/images/crate_icon.png
